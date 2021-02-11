@@ -3,7 +3,7 @@
 %global gh_user jc21
 
 Name:           redis-migrator
-Version:        0.0.2
+Version:        1.0.0
 Release:        1%{?dist}
 Summary:        Takes the keys from one Redis server/db and transfer them to another server/db 
 Group:          Applications/System
@@ -28,6 +28,9 @@ install -Dm0755 bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Thu Feb 11 2021 Jamie Curnow <jc@jc21.com> 1.0.0-1
+- https://github.com/jc21/redis-migrator/releases/tag/v1.0.0
+
 * Thu Feb 11 2021 Jamie Curnow <jc@jc21.com> 0.0.2-1
 - https://github.com/jc21/redis-migrator/releases/tag/v0.0.2
 
