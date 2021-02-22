@@ -2,6 +2,6 @@
   "publish": {
     "PACKAGE": "redis-migrator",
     "GH_USER": "jc21-rpm",
-    "VERSION": "1.0.0"
+    "VERSION": "1.0.1"
   }
 }
