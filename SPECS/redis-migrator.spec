@@ -4,8 +4,8 @@
 
 Name:           redis-migrator
 Version:        1.0.4
-Release:        1%{?dist}
-Summary:        Takes the keys from one Redis server/db and transfer them to another server/db 
+Release:        1
+Summary:        Takes the keys from one Redis server/db and transfer them to another server/db
 Group:          Applications/System
 License:        MIT
 URL:            https://github.com/%{gh_user}/%{name}
@@ -13,7 +13,7 @@ Source:         https://github.com/%{gh_user}/%{name}/archive/v%{version}.tar.gz
 BuildRequires:  git golang
 
 %description
-Redis Migrator will take the keys from one server/db and transfer them to another server/db 
+Redis Migrator will take the keys from one server/db and transfer them to another server/db
 
 %prep
 %setup -qn %{name}-%{version}
