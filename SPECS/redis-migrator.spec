@@ -4,7 +4,7 @@
 
 Name:           redis-migrator
 Version:        1.0.4
-Release:        1
+Release:        1%{?dist}
 Summary:        Takes the keys from one Redis server/db and transfer them to another server/db
 Group:          Applications/System
 License:        MIT
